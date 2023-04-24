@@ -496,10 +496,6 @@ small {
 	line-height: 4rem;
 }
 
-.meal-types-overview .meal-types-list li {
-	white-space: nowrap;
-}
-
 /* TESTIMONIALS SECTION */
 .section-testimonials {
 	display: grid;
