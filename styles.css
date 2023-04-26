@@ -531,9 +531,6 @@ small {
 }
 
 /* TESTIMONIALS: TESTIMONIALS CARDS */
-.testimonials {
-	align-self: center;
-}
 
 .testimonials-details {
 	display: grid;
@@ -587,11 +584,11 @@ small {
 }
 
 /* PRICING SECTION */
-.section-pricing {
+/* .section-pricing {
 	max-width: 130rem;
 	margin: 0 auto;
 	padding: 6rem 4rem 2rem 4rem;
-}
+} */
 
 /* PRICING SECTION: PRICING CARDS */
 .pricing-card-wrapper {
@@ -652,7 +649,7 @@ small {
 	font-size: 3rem;
 }
 
-/* SELECTED PRICING CARD */
+/* SELECTED PRICING CARD, BEST VALUE*/
 .selected-pricing {
 	background: #d8f5cc;
 	border-radius: 10px;
@@ -688,7 +685,7 @@ small {
 /* PRICING BANNER & EXTRA DETAILS */
 .pricing-message {
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 8rem;
 	font-size: 1.4rem;
 	color: grey;
 }
