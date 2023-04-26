@@ -584,11 +584,11 @@ small {
 }
 
 /* PRICING SECTION */
-/* .section-pricing {
+.section-pricing {
 	max-width: 130rem;
 	margin: 0 auto;
 	padding: 6rem 4rem 2rem 4rem;
-} */
+}
 
 /* PRICING SECTION: PRICING CARDS */
 .pricing-card-wrapper {
