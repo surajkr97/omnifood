@@ -39,3 +39,18 @@ function submission1(event) {
 
 const subscribeForm = document.querySelector("#form-subscribe-element");
 subscribeForm.addEventListener("click", submission1);
+
+/* STICKY NAVIGATION */
+const onSecondPage = document.querySelector(".section-hero");
+const navObserver = new IntersectionObserver(
+
+	function (entries) {
+		const ent = entries[0];
+		if (ent.isIntersecting === false) {
+			document.body.classList.add("sticky");
+		} else {
+			document.body.classList.remove("sticky");
+		}
+	})
+
+navObserver.observe(onSecondPage);
