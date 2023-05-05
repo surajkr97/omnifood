@@ -900,3 +900,8 @@ footer {
 .dev-credits a:hover {
 	color: rgb(112, 215, 68);
 }
+
+#cartoon{
+	height: 25rem;
+	margin-bottom: -16rem;
+}
