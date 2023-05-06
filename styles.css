@@ -92,32 +92,23 @@ small {
 	margin-right: 0.2rem;
 }
 
-/* MENU BAR */
-#menubar{
+/* MENU BAR - MOBILE NAV */
+.mobile-nav-btn {
+	border: none;
+	background: none;
+	cursor: pointer;
 	display: none;
-	color: #2b7f06;
-	margin-right: 0.2rem;
+	box-shadow: none;
+	width: fit-content;
 }
 
-#menuitems{
-	height: 90px;
+.mobile-nav-btn i {
+	color: #0e2803;
+	font-size: 3.6rem;
 }
 
-#menuitems li{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px;
-	height: 20vh;
-}
-
-#menudiv{
-	font-size: 18px;
-	float: right;
-	height: 80vh;
-	width: 250px;
-	background-color: #d8f5cc;
-	border-radius: 15px 0 0 15px;
+.mobile-order,
+.mobile-close i {
 	display: none;
 }
 

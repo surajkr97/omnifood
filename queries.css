@@ -1,24 +1,70 @@
 @media screen and (max-width: 1128px) {
-    /* body{
-        color: aliceblue;
-    } */
+    /* MOBILE NAV */
+	.mobile-nav-btn {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 
-    .main-nav-list, .desktop-order{
-        display: none;
-    }
+	.main-nav {
+		position: absolute;
+		background: #92ba80e6;
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		color: #103201;
+		z-index: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		transition: all 200ms ease-in;
+		opacity: 0;
+		pointer-events: none;
+		visibility: hidden;
+	}
 
-    #menubar{
-        display: block;
-        font-size: 3rem;
-        cursor: pointer;
-    }
+	.main-nav-list {
+		position: relative;
+		flex-direction: column;
+		background: none;
+		text-align: center;
+		gap: 4rem;
+	}
 
-    #menudiv{
-        display: block;
-        transition: 0.3s ease;
-    }
+	.main-nav-list a {
+		font-size: 2.4rem;
+		padding: 1rem 3rem;
+		border-radius: 50px;
+	}
 
-    .hero-img-wrapper{
-        display: none;
-    }
+	/* HAMBURGER NAV OPEN */
+	.nav-open .main-nav {
+		opacity: 1;
+		pointer-events: auto;
+		visibility: visible;
+	}
+
+	.nav-open .mobile-close {
+		display: block;
+		z-index: 100;
+	}
+
+	.nav-open .mobile-open {
+		display: none;
+	}
+
+	.desktop-order {
+		display: none;
+	}
+
+	.mobile-order {
+		display: block;
+		margin: 3rem auto;
+		font-size: 2.4rem;
+	}
 }
