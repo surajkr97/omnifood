@@ -92,6 +92,35 @@ small {
 	margin-right: 0.2rem;
 }
 
+/* MENU BAR */
+#menubar{
+	display: none;
+	color: #2b7f06;
+	margin-right: 0.2rem;
+}
+
+#menuitems{
+	height: 90px;
+}
+
+#menuitems li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	height: 20vh;
+}
+
+#menudiv{
+	font-size: 18px;
+	float: right;
+	height: 80vh;
+	width: 250px;
+	background-color: #d8f5cc;
+	border-radius: 15px 0 0 15px;
+	display: none;
+}
+
 /* DROPDOWN */
 .dropdown-content {
 	display: none;

@@ -1,0 +1,24 @@
+@media screen and (max-width: 1128px) {
+    /* body{
+        color: aliceblue;
+    } */
+
+    .main-nav-list, .desktop-order{
+        display: none;
+    }
+
+    #menubar{
+        display: block;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    #menudiv{
+        display: block;
+        transition: 0.3s ease;
+    }
+
+    .hero-img-wrapper{
+        display: none;
+    }
+}
