@@ -843,7 +843,7 @@ small {
 }
 
 .subscribe-img {
-	background-image: url(/assets/bowls.jpg);
+	background-image: url(assets/bowls.jpg);
 	background-size: cover;
 	border-radius: 10px 0 0 10px;
 	opacity: 0.75;
