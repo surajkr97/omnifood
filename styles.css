@@ -476,8 +476,9 @@ small {
 
 /* CARTOON */
 #cartoon{
-	height: 25rem;
-	margin-bottom: -16rem;
+	height: 15rem;
+	margin-bottom: -12rem;
+	margin-left: 2rem;
 }
 
 /* MEALS SECTION */
